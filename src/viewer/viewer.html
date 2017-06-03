@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- style import -->
+        <link rel="stylesheet" href="./viewer.css"/>
+        <!-- library import -->
+        <script src="../lib/three.min.js"></script>
+        <script src="../lib/OrbitControls.js"></script>
+    </head>
+    <body onload="threeStart();">
+        <div id="screen">
+            <video id="webcamera"></video>
+            <!--<canvas id="display"></canvas>-->
+            <!--<div id="container"></div>-->
+        </div>
+        <label onClick="connect()">接続</label>
+    </body>
+    <script src="./render.js"></script>
+    <script src="./camera_connector.js"></script>
+</html>
